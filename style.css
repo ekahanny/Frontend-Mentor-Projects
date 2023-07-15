@@ -26,7 +26,7 @@ img{
     padding: 20px;
     width: 350px;
     height: 520px;
-    box-shadow: 0 2px 15px rgba(0,0,0,.1) ;
+    box-shadow: 0 2px 15px rgba(0,0,0,.1);
 }
 
 .container img{
@@ -59,6 +59,33 @@ img{
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 100%;
+    }
+    
+    .container{
+        width: 300px;
+        height: 480px;
+        box-shadow: 0 2px 15px rgba(0,0,0,.1);
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .container img{
+        width: 280px;
+    }
+
+    .container h2{
+        font-size: 22px;
+    }
+
+    .container p{
+        font-size: 17px;
+    }
+
 }
 
 
